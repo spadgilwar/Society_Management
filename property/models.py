@@ -61,3 +61,8 @@ class Unit(models.Model):
     def unit_number(self):
         if self.unit_no:
             return self.wing + '-' + self.unit_no
+
+class Property_Services(models.Model):
+    service_name = models.CharField(max_length=25, unique=True)
+    uom = models.CharField(max_length=20, null=True, help_text="Unit of Measurement")
+    description = models.TextField()

@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'rest_framework_swagger',
     'oauth2_provider',
     'property',
+    'vendor_mgmt',
 ]
 
 MIDDLEWARE = [
