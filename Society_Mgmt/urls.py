@@ -24,4 +24,6 @@ urlpatterns = [
     url(r'^$',schema_view),
     url(r'^o/', include('oauth2_provider.urls', namespace='oauth2_provider')),
     path('property/', include('property.urls')),
+    path('vendor/', include('vendor_mgmt.urls')),
+    path('resident/', include('resident_mgmt.urls')),
 ]

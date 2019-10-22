@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'oauth2_provider',
     'property',
     'vendor_mgmt',
+    'resident_mgmt',
 ]
 
 MIDDLEWARE = [
