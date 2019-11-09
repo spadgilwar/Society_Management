@@ -13,3 +13,5 @@ urlpatterns = [
 ]
 
 urlpatterns +=router.urls
+
+print('hi')
