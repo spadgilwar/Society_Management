@@ -26,3 +26,6 @@ class UnitStatusViewset(viewsets.ModelViewSet):
 
 class A():
     print('hi')
+
+class B():
+    pass
