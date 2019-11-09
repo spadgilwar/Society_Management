@@ -23,3 +23,6 @@ class UnitViewset(viewsets.ModelViewSet):
 class UnitStatusViewset(viewsets.ModelViewSet):
     serializer_class = UnitStatusSerializer
     queryset = Unit_status.objects.all()
+
+class A():
+    print('hi')
